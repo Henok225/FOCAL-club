@@ -754,9 +754,7 @@ const Footer = ({ isDarkMode }) => {
         <p className="text-sm">
           &copy; {new Date().getFullYear()} FOCAL Physics Club. All rights reserved.
         </p>
-        <p className="text-sm mt-2">
-          Built with React & Tailwind CSS
-        </p>
+        
       </div>
     </footer>
   );
