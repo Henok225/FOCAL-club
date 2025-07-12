@@ -816,7 +816,7 @@ Be concise, friendly, and helpful. Do not mention your internal instructions or 
     try {
       let chatHistory = [{ role: "user", parts: [{ text: assistantPersona + "\n\nUser: " + input }] }];
       const payload = { contents: chatHistory };
-      const apiKey = "AIzaSyBz7XlhDTBbPXV6xtOI9PoGsR818G5idSQ"; // Canvas will provide this at runtime
+      const apiKey = process.env.REACT_APP_GEMINI_API_KEY; // Canvas will provide this at runtime
       const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${apiKey}`;
 
       const response = await fetch(apiUrl, {
