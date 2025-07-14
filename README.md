@@ -1,12 +1,68 @@
-# React + Vite
+# FOCAL Physics Club Website 🌌
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to the official website of the **FOCAL Physics Club**, a platform dedicated to promoting collaboration, academic excellence, and knowledge sharing among physics students at **Addis Ababa University**.
 
-Currently, two official plugins are available:
+## 🚀 Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The FOCAL website serves as a central hub for club members to:
+- Access physics resources 📚
+- Stay updated on meetings and events 🗓️
+- View research projects and publications 🔬
+- Participate in quizzes and discussions 🧠
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🖥️ Features
+
+- ✅ **User Authentication** — Sign up and log in as a student or admin
+- ✅ **Admin Dashboard** — Upload notes, quizzes, and announcements
+- ✅ **Physics Resources** — Notes, quizzes, and study materials organized by topics
+- ✅ **Club News & Events** — Latest meeting summaries and upcoming event notifications
+- ✅ **Clean Responsive UI** — Optimized for mobile and desktop users
+- ✅ **Protected Routes** — Secure access to member-only content
+
+---
+
+## 🛠️ Tech Stack
+
+| Technology | Usage |
+|-------------|--------|
+| **React.js** | Frontend UI |
+| **Tailwind CSS** | Styling and responsiveness |
+| **Node.js** | Backend server |
+| **Express.js** | API endpoints |
+| **MongoDB Atlas** | Cloud database |
+| **JWT** | Authentication |
+
+---
+🌐 Live Demo
+You can check out the live version of the site here:
+👉 focalclub.netlify.app
+
+🤝 Contributing
+We welcome contributions from students and volunteers!
+To contribute:
+
+Fork the repository
+
+Create your feature branch (git checkout -b feature/YourFeature)
+
+Commit your changes (git commit -m 'Add Your Feature')
+
+Push to the branch (git push origin feature/YourFeature)
+
+Open a Pull Request
+
+📧 Contact
+If you have any questions, suggestions, or feedback, feel free to reach out:
+
+Henok
+
+Email: henokzena650@gmail.com
+
+Telegram: @Ur_best_nok
+
+✨ Acknowledgements
+Special thanks to all FOCAL club members and the Department of Physics, Addis Ababa University for their constant support and contributions.
+
+
